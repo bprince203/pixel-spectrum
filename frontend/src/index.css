@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+font-family: 'poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.link{
+    color: blue;
+}
+.hide{
+    transition: .5s ease-in-out;
+    display: none;
+}
+.nav-list li{
+    display: inline-block;
+    margin: 0px 10px;
+  }
+  .nav-list li a{
+    font-weight:500;
+    transition: .5s ease-in-out;
+  }
+  .nav-list li a:hover{
+    color: #2563EB;
+  }
+  .active{
+    color: #2563EB;
+  }
+  .side-button{
+    display: none;
+  }
+  .side-nav{
+    transition: .5s ease-in-out;
+  }
+ /* home page hero section */
+ .hero-section{
+  background-image:
+  linear-gradient(to bottom, rgba(42, 42, 44, 0.52), rgba(31, 31, 31, 0.979)),
+  url('assets/back.jpg');
+  width: 100%;
+  padding: 20px;
+ }
+ .hero-section h1{
+  color: #fff;
+  margin: 10px 0;
+  background-size: cover;
+ }
+
+ /* home page hero section */
+/* features */
+.features-box{
+  transition: .5s all;
+}
+.features-box:hover h2{
+  color: #2563EB;
+}
+/* features */
+/* category */
+.category-box img{
+  filter: brightness(0.5);
+}
+.category-box h2{
+  /* opacity:0; */
+  transform:translateY(10px);
+}
+.category-box{
+  transition: .2s ease-in-out;
+}
+.category-box:hover img{
+  filter: brightness(1);
+  transition: .2s ease-in-out;
+  cursor: pointer;
+  opacity:1;
+}
+.category-box:hover h2{
+  opacity:1;
+  transform:translateY(0);
+  transition: .2s ease-in-out;
+
+}
+/* tag */
+.tag{
+  margin: 5px 0px;
+}
+.tag li{
+  margin: 2px;
+  cursor: pointer;
+  display: inline-block;
+  background-color: #efefef;
+  padding:2px 5px;
+  font-size:0.8rem;
+  border-radius: 2px;
+}
+/* category */
+ /* side nab bar */
+ #sideNav a{
+  display: block;
+  padding: 10px;
+ }
+ #sideNav .active{
+  background-color: white;
+  border-radius:10px;
+  color:#11101d;
+ }
+ /* side nab bar */
+ /* photo.jsx */
+ .image-animate{
+  transition: .2s ease-in-out;
+  cursor: pointer;
+  object-fit: cover;
+ }
+ .image-animate:hover{
+  object-fit: contain;
+ }
+ /* footer */
+ .footer-section li a:hover{
+  color: #fff;
+ }
+ /* footer */
+ /* photo.jsx */
+  @media (max-width: 768px) {
+    .sideBar-title h2 {
+        /* font-size: 40px; */
+    }
+    .side-button{
+        display: block;
+    }
+    .nav-list{
+        display: none;
+    }
+}

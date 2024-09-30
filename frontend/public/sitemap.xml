@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Home -->
+  <url>
+    <loc>https://pixel-spectrum.vercel.app</loc>
+  </url>
+
+  <!-- Category -->
+  <url>
+    <loc>https://pixel-spectrum.vercel.app/category</loc>
+  </url>
+
+  <!-- Category Details -->
+  <url>
+    <loc>https://pixel-spectrum.vercel.app/category/catname</loc>
+  </url>
+
+  <!-- Photo -->
+  <url>
+    <loc>https://pixel-spectrum.vercel.app/photo</loc>
+  </url>
+
+  <!-- Photo Details -->
+  <url>
+    <loc>https://pixel-spectrum.vercel.app/photo/id</loc>
+  </url>
+
+  <!-- Search -->
+  <url>
+    <loc>https://pixel-spectrum.vercel.app/search</loc>
+  </url>
+  <url>
+    <loc>https://pixel-spectrum.vercel.app/search/keyword</loc>
+  </url>
+
+  <!-- 404 - Not Found -->
+  <url>
+    <loc>https://pixel-spectrum.vercel.app/</loc>
+  </url>
+</urlset>
