@@ -45,6 +45,11 @@ const navLinks = [
       link:'/category/lifestyle'
     },
     {
+      img:'./anime-pic.jpg',
+      title:'Anime World',
+      link:'/category/Anime'
+    },
+    {
       img:'./cat-animals.jpg',
       title:'Animals',
       link:'/category/animals'
@@ -53,6 +58,11 @@ const navLinks = [
       img:'./cat-business.jpg',
       title:'Business',
       link:'/category/business'
+    },
+    {
+      img:'./movies.jpg',
+      title:'Movies',
+      link:'/category/movies'
     },
   ]
   // Photo search filter

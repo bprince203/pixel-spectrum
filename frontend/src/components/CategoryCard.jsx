@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 function CategoryCard() {
   return (
-    <div className='flex gap-5 flex-wrap md:justify-start justify-center'>
+    <div className='flex gap-5 flex-wrap justify-center'>
       {category.map((data) => (
         <Link to={data.title} key={data.title}>
           <div className="category-box w-56 h-40 rounded-md relative overflow-hidden">
