@@ -44,11 +44,11 @@ const navLinks = [
       title:'Lifestyle',
       link:'/category/lifestyle'
     },
-    {
-      img:'./anime-pic.jpg',
-      title:'Anime World',
-      link:'/category/Anime'
-    },
+    // {
+    //   img:'./anime-pic.jpg',
+    //   title:'Anime World',
+    //   link:'/category/Anime'
+    // },
     {
       img:'./cat-animals.jpg',
       title:'Animals',
