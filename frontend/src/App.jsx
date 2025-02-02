@@ -54,7 +54,7 @@ function NotFound() {
   return (
     <div>
       <h1>
-        404 ERROR <Link to="/" className="text-blue-700">GO TO HOME</Link>
+        404 ERROR <Link to="/" className="text-blue-700">GO TO HOME </Link>
       </h1>
     </div>
   );

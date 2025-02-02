@@ -20,18 +20,18 @@ const navLinks = [
       tag:'1000+ Images',
       link:'/photo'
     },
-    {
-      icon:'fa-solid fa-video',
-      title:'Stock Video',
-      tag:'100+ videos',
-      link:'/'
-    },
-    {
-      icon:'fa-solid fa-film',
-      title:'Video Presets',
-      tag:'100+ videos presets',
-      link:'/'
-    }
+    // {
+    //   icon:'fa-solid fa-video',
+    //   title:'Stock Video',
+    //   tag:'100+ videos',
+    //   link:'/'
+    // },
+    // {
+    //   icon:'fa-solid fa-film',
+    //   title:'Video Presets',
+    //   tag:'100+ videos presets',
+    //   link:'/'
+    // }
   ]
   const category = [
     {
@@ -86,18 +86,23 @@ const navLinks = [
 
   const testimonials = [
     {
-      admin:'Harsh',
+      admin:'Himanshu Bhardwaj',
       post:'Web Developer',
       message:'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim distinctio porro quasi provident eum recusandae quos assumenda quas, fuga ad!'
     },
     {
-      admin:'Krishna',
+      admin:'Aayush',
       post:'Content Creator',
       message:'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim distinctio porro quasi provident eum recusandae quos assumenda quas, fuga ad!'
     },
     {
-      admin:'Tony Stark',
+      admin:'Ernest Anuj Peter',
       post:'VFX Designer',
+      message:'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim distinctio porro quasi provident eum recusandae quos assumenda quas, fuga ad!'
+    },
+    {
+      admin:'Ernest Anuj Peter',
+      post:'Market Analyst',
       message:'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim distinctio porro quasi provident eum recusandae quos assumenda quas, fuga ad!'
     },
   ]
